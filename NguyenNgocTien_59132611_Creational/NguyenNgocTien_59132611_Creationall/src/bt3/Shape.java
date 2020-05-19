@@ -15,32 +15,18 @@ public abstract class Shape {
     public Shape() {
     }
     
-    
-    
     public Shape(String brush, String paper, String frame) {
         this.brush = brush;
         this.paper = paper;
         this.frame = frame;
     }
 
-    public String getBrush() {
-        return brush;
-    }
-
     public void setBrush(String brush) {
         this.brush = brush;
     }
 
-    public String getPaper() {
-        return paper;
-    }
-
     public void setPaper(String paper) {
         this.paper = paper;
-    }
-
-    public String getFrame() {
-        return frame;
     }
 
     public void setFrame(String frame) {
@@ -52,7 +38,7 @@ public abstract class Shape {
 
     @Override
     public String toString() {
-        return "Vẽ " + draw() + brush + paper + frame;
+        return "Ve " + draw() + brush + paper + frame;
     }
     
 }

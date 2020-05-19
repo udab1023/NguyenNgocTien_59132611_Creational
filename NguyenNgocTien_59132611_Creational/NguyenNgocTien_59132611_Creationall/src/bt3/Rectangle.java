@@ -25,7 +25,7 @@ public class Rectangle extends Shape{
     }
     @Override
     public String draw() {
-        return "hinh rectangle";
+        return "hinh chu nhat ";
     }
     
 }

@@ -13,8 +13,9 @@ public class bt3_main {
     public static void main(String[] args) {
         ShapeFactory shapeFactory = ShapeFactory.createInstance();
         Shape shape1 = shapeFactory.createShape(ShapeType.Circle);
-        shape1.setBrush("bang co");
-        shape1.setPaper("");
+        shape1.setBrush(" bang co, ");
+        shape1.setPaper("tren giay, ");
+        shape1.setFrame("trong khung");
         System.out.println(shape1.toString());
     }
 }
